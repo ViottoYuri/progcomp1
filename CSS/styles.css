@@ -1,0 +1,41 @@
+body{
+    /* fonte do texto */
+    font-family: Arial, sans-serif;
+    background-color: rgb(164, 19, 19);
+    /* usa modelo lexbox, conceito de caixa para posicionamento */
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página 100% da altura da página */
+    align-items: center; /* centraliza na vertical */ 
+
+}
+.container{
+    background-color: white;
+    padding: 20px;/* espaçamernto interno */
+    border-radius: 10px;/* borda */
+    text-align: center; /*texto centralizado */
+    box-shadow: 0 4px 8px ; /*sombra*/
+}
+button{
+    background-color:rgb(45, 13, 115);
+    color: white;
+    border: none;
+    /*10px é abaixo e cacima e 20px é esuqerda e direita*/
+    padding: 10px 20px;
+}
+/*ao passar o mouse em cima do botão*/
+button:hover{
+    background-color:rgb(25, 94, 158);
+
+}
+
+.foto{
+    /*borda com cantos arredondados*/
+    border-radius: 50%;
+    /*largura*/
+    width: 100px;
+    /*altura*/
+    height: 100px;
+    /*espaçamento externo abaixo*/
+    margin-bottom: 10px;
+}
